@@ -1,0 +1,21 @@
+{
+  "name": "whatsapp-auto-responder-tg",
+  "version": "2.0.0",
+  "description": "WhatsApp Auto-Responder with Telegram Remote Control & Render Docker Compatibility",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "axios": "^1.19.0",
+    "csv-parse": "^7.0.2",
+    "node-telegram-bot-api": "^1.2.0",
+    "puppeteer": "^22.0.0",
+    "puppeteer-core": "^22.0.0",
+    "qrcode": "^1.5.4",
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "^1.34.7"
+  },
+  "author": "LO & ENI",
+  "license": "ISC"
+}

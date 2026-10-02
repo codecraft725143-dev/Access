@@ -1,0 +1,11 @@
+services:
+  - type: worker
+    name: whatsapp-auto-responder-bot
+    env: docker
+    dockerfilePath: ./Dockerfile
+    autoDeploy: true
+    envVars:
+      - key: TELEGRAM_BOT_TOKEN
+        sync: false
+      - key: TELEGRAM_ADMIN_ID
+        value: "7507173935"
